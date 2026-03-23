@@ -13,7 +13,7 @@ export async function NewsPreview() {
       <div className="mx-auto max-w-content">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent"> 
               Media
             </p>
             <h2
