@@ -28,7 +28,7 @@ const badges = [
 export function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(true);
-  const isMobile = useMediaQuery("(max-width: 767px)");
+  const isMobile = useMediaQuery("(max-width: 767px)", () => true);
   const videoSrc = process.env.NEXT_PUBLIC_HERO_VIDEO_URL;
 
   const toggle = () => {

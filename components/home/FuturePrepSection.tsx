@@ -69,14 +69,22 @@ export function FuturePrepSection() {
                 Begin your child&apos;s journey with a school trusted by
                 families across India.
               </p>
-              <a
-                href={siteConfig.admissionFormUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-6 inline-flex rounded-btn bg-accent px-6 py-3 font-semibold text-dark shadow-card hover:bg-accent-light"
-              >
-                Apply Now
-              </a>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a
+                  href={siteConfig.admissionFormUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex rounded-btn bg-accent px-6 py-3 font-semibold text-dark shadow-card hover:bg-accent-light"
+                >
+                  Apply online
+                </a>
+                <Link
+                  href="/admission/procedure"
+                  className="inline-flex rounded-btn border-2 border-white/80 px-6 py-3 font-semibold text-white hover:bg-white/10"
+                >
+                  Admission procedure
+                </Link>
+              </div>
             </div>
           </div>
         </motion.div>
